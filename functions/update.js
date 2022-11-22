@@ -20,11 +20,10 @@ const NEWSROOM = process.env.PODCAST || "dev";
 
 // The main google spreadsheet
 const SPREADSHEET_IDS = {
-	azcentral: "1dtu1TmmOi30Cewr612pYlLNDA20MJv4GyOeblCN6ezk",
-	savannahnow: "1avByth7vtATmNq7z_PAEwE7jCUSpNKZEZ3bE_ekTYSY",
-	// https://docs.google.com/spreadsheets/d/1OL6mTeI-Z1Tn4CHO6PJNLcErvZE15i53xuy4APW_eLA/edit#gid=69257696
-	usatoday: "1OL6mTeI-Z1Tn4CHO6PJNLcErvZE15i53xuy4APW_eLA",
-	dev: "1xoWhAT1jp9KW1vI_NNwCssRhUg4v23snOcrHLSTfTxA",
+	azcentral: "***",
+	savannahnow: "***",
+	usatoday: "***",
+	dev: "***",
 };
 const CONTENT_PROTECTION_STATES = ["free", "premium", "registered", "metered"];
 
