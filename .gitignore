@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+public/build/
+public/embed/
+public/embed.html
+public/index.html
+public/**/*.map
+public/**/*.css
+public/**/*.js
+public/**/*.json
+functions/data
+.env
+.vscode
+
+

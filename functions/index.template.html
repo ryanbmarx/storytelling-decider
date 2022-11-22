@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Svelte app</title>
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="bundle.css" />
+
+  <script defer src="bundle.js"></script>
+
+  <style>
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: var(--agent-nav-height, 56px);
+      background-color: #aaa;
+      color: #888;
+      z-index: infinity;
+      display: flex;
+      place-items: center center;
+    }
+
+    body {
+      padding: var(--agent-nav-height) 0 0 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav> ...</nav>
+  {{BODY}}
+</body>
+
+<script>
+
+  setTimeout(function () {
+    dispatchEvent(new Event("gciAnalyticsReady"))
+
+  }, 1000)
+
+</script>
+
+</html>
