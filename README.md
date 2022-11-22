@@ -1,13 +1,4 @@
-# Storytelling Studio apps
-
-TODO: 
-
-- Analytics, presto ID in PVs
-- SSR
-- Multiple races in one spreadsheet
-- Better summary design
-- Recirc 
-
+# The Decider — Gannett Storytelling Studio
 
 ## Analytics
 
